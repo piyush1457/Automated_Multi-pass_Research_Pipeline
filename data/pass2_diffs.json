@@ -1,0 +1,1781 @@
+[
+  {
+    "id": 86,
+    "name": "QuickBooks",
+    "category": "Finance and Fintech",
+    "diffs": [
+      {
+        "field": "api_breadth_note",
+        "pass1_value": "unclear",
+        "pass2_value": "40+ endpoints covering contacts, deals, pipelines",
+        "pass1_urls": [
+          "https://developer.intuit.com/app/developer/qbo/docs/develop",
+          "https://developer.intuit.com/app/developer/qbdesktop/docs/api-reference"
+        ],
+        "pass2_urls": [
+          "https://developer.intuit.com/app/developer/qbo/docs/develop/authentication-and-authorization",
+          "https://developer.intuit.com/app/developer/qbo/docs/develop/authentication-and-authorization/oauth-2.0"
+        ]
+      },
+      {
+        "field": "evidence_urls",
+        "pass1_value": [
+          "https://developer.intuit.com/app/developer/qbo/docs/develop",
+          "https://developer.intuit.com/app/developer/qbdesktop/docs/api-reference",
+          "https://developer.intuit.com/app/developer/qbpayments/docs/get-started"
+        ],
+        "pass2_value": [
+          "https://developer.intuit.com/app/developer/qbo/docs/develop/authentication-and-authorization",
+          "https://developer.intuit.com/app/developer/qbo/docs/develop/authentication-and-authorization/oauth-2.0",
+          "https://dev.to/bstewart/the-pain-of-integrating-with-quickbooks-oauth-20-api-1mb0"
+        ],
+        "pass1_urls": [
+          "https://developer.intuit.com/app/developer/qbo/docs/develop",
+          "https://developer.intuit.com/app/developer/qbdesktop/docs/api-reference"
+        ],
+        "pass2_urls": [
+          "https://developer.intuit.com/app/developer/qbo/docs/develop/authentication-and-authorization",
+          "https://developer.intuit.com/app/developer/qbo/docs/develop/authentication-and-authorization/oauth-2.0"
+        ]
+      },
+      {
+        "field": "one_liner",
+        "pass1_value": "Develop and manage your Intuit apps",
+        "pass2_value": "Integrate with QuickBooks' oAuth 2.0 API to access accounting data.",
+        "pass1_urls": [
+          "https://developer.intuit.com/app/developer/qbo/docs/develop",
+          "https://developer.intuit.com/app/developer/qbdesktop/docs/api-reference"
+        ],
+        "pass2_urls": [
+          "https://developer.intuit.com/app/developer/qbo/docs/develop/authentication-and-authorization",
+          "https://developer.intuit.com/app/developer/qbo/docs/develop/authentication-and-authorization/oauth-2.0"
+        ]
+      }
+    ],
+    "diff_count": 3,
+    "pass1_confidence": 0.8,
+    "pass2_confidence": 0.8
+  },
+  {
+    "id": 40,
+    "name": "SendGrid",
+    "category": "Marketing, Ads, Email and Social",
+    "diffs": [
+      {
+        "field": "access",
+        "pass1_value": "unclear",
+        "pass2_value": "self_serve_free",
+        "pass1_urls": [],
+        "pass2_urls": [
+          "https://www.twilio.com/docs/sendgrid/for-developers/sending-email/authentication",
+          "https://docs.matillion.com/metl/docs/0964835/"
+        ]
+      },
+      {
+        "field": "api_breadth_note",
+        "pass1_value": "",
+        "pass2_value": "40+ endpoints covering contacts, deals, pipelines",
+        "pass1_urls": [],
+        "pass2_urls": [
+          "https://www.twilio.com/docs/sendgrid/for-developers/sending-email/authentication",
+          "https://docs.matillion.com/metl/docs/0964835/"
+        ]
+      },
+      {
+        "field": "api_surface",
+        "pass1_value": "none_public",
+        "pass2_value": "rest",
+        "pass1_urls": [],
+        "pass2_urls": [
+          "https://www.twilio.com/docs/sendgrid/for-developers/sending-email/authentication",
+          "https://docs.matillion.com/metl/docs/0964835/"
+        ]
+      },
+      {
+        "field": "auth_methods",
+        "pass1_value": [],
+        "pass2_value": [
+          "OAuth2",
+          "API Key",
+          "Basic"
+        ],
+        "pass1_urls": [],
+        "pass2_urls": [
+          "https://www.twilio.com/docs/sendgrid/for-developers/sending-email/authentication",
+          "https://docs.matillion.com/metl/docs/0964835/"
+        ]
+      },
+      {
+        "field": "blocker",
+        "pass1_value": "LLM extraction failed",
+        "pass2_value": "",
+        "pass1_urls": [],
+        "pass2_urls": [
+          "https://www.twilio.com/docs/sendgrid/for-developers/sending-email/authentication",
+          "https://docs.matillion.com/metl/docs/0964835/"
+        ]
+      },
+      {
+        "field": "buildable_verdict",
+        "pass1_value": "no",
+        "pass2_value": "yes",
+        "pass1_urls": [],
+        "pass2_urls": [
+          "https://www.twilio.com/docs/sendgrid/for-developers/sending-email/authentication",
+          "https://docs.matillion.com/metl/docs/0964835/"
+        ]
+      },
+      {
+        "field": "confidence",
+        "pass1_value": 0.0,
+        "pass2_value": 0.9,
+        "pass1_urls": [],
+        "pass2_urls": [
+          "https://www.twilio.com/docs/sendgrid/for-developers/sending-email/authentication",
+          "https://docs.matillion.com/metl/docs/0964835/"
+        ]
+      },
+      {
+        "field": "evidence_urls",
+        "pass1_value": [],
+        "pass2_value": [
+          "https://www.twilio.com/docs/sendgrid/for-developers/sending-email/authentication",
+          "https://docs.matillion.com/metl/docs/0964835/",
+          "https://sfailabs.com/guides/how-to-get-sendgrid-api-key"
+        ],
+        "pass1_urls": [],
+        "pass2_urls": [
+          "https://www.twilio.com/docs/sendgrid/for-developers/sending-email/authentication",
+          "https://docs.matillion.com/metl/docs/0964835/"
+        ]
+      },
+      {
+        "field": "existing_mcp",
+        "pass1_value": false,
+        "pass2_value": true,
+        "pass1_urls": [],
+        "pass2_urls": [
+          "https://www.twilio.com/docs/sendgrid/for-developers/sending-email/authentication",
+          "https://docs.matillion.com/metl/docs/0964835/"
+        ]
+      },
+      {
+        "field": "mcp_source",
+        "pass1_value": "none",
+        "pass2_value": "composio",
+        "pass1_urls": [],
+        "pass2_urls": [
+          "https://www.twilio.com/docs/sendgrid/for-developers/sending-email/authentication",
+          "https://docs.matillion.com/metl/docs/0964835/"
+        ]
+      },
+      {
+        "field": "one_liner",
+        "pass1_value": "",
+        "pass2_value": "SendGrid is an email API that allows users to send, receive, and track email messages.",
+        "pass1_urls": [],
+        "pass2_urls": [
+          "https://www.twilio.com/docs/sendgrid/for-developers/sending-email/authentication",
+          "https://docs.matillion.com/metl/docs/0964835/"
+        ]
+      }
+    ],
+    "diff_count": 11,
+    "pass1_confidence": 0.0,
+    "pass2_confidence": 0.9
+  },
+  {
+    "id": 100,
+    "name": "Grain",
+    "category": "AI, Research and Media-native",
+    "diffs": [
+      {
+        "field": "api_breadth_note",
+        "pass1_value": "",
+        "pass2_value": "40+ endpoints covering recordings, users, and more",
+        "pass1_urls": [
+          "https://grain.com/",
+          "https://en.wikipedia.org/wiki/Grain"
+        ],
+        "pass2_urls": [
+          "https://developers.grain.com/",
+          "https://api2cart.com/news/authentication-in-api/"
+        ]
+      },
+      {
+        "field": "api_surface",
+        "pass1_value": "none_public",
+        "pass2_value": "both",
+        "pass1_urls": [
+          "https://grain.com/",
+          "https://en.wikipedia.org/wiki/Grain"
+        ],
+        "pass2_urls": [
+          "https://developers.grain.com/",
+          "https://api2cart.com/news/authentication-in-api/"
+        ]
+      },
+      {
+        "field": "auth_methods",
+        "pass1_value": [
+          "OAuth2"
+        ],
+        "pass2_value": [
+          "OAuth2",
+          "Personal Access Token",
+          "Workspace Access Token"
+        ],
+        "pass1_urls": [
+          "https://grain.com/",
+          "https://en.wikipedia.org/wiki/Grain"
+        ],
+        "pass2_urls": [
+          "https://developers.grain.com/",
+          "https://api2cart.com/news/authentication-in-api/"
+        ]
+      },
+      {
+        "field": "buildable_verdict",
+        "pass1_value": "no",
+        "pass2_value": "yes",
+        "pass1_urls": [
+          "https://grain.com/",
+          "https://en.wikipedia.org/wiki/Grain"
+        ],
+        "pass2_urls": [
+          "https://developers.grain.com/",
+          "https://api2cart.com/news/authentication-in-api/"
+        ]
+      },
+      {
+        "field": "confidence",
+        "pass1_value": 0.2,
+        "pass2_value": 0.9,
+        "pass1_urls": [
+          "https://grain.com/",
+          "https://en.wikipedia.org/wiki/Grain"
+        ],
+        "pass2_urls": [
+          "https://developers.grain.com/",
+          "https://api2cart.com/news/authentication-in-api/"
+        ]
+      },
+      {
+        "field": "evidence_urls",
+        "pass1_value": [
+          "https://grain.com/",
+          "https://en.wikipedia.org/wiki/Grain"
+        ],
+        "pass2_value": [
+          "https://developers.grain.com/",
+          "https://api2cart.com/news/authentication-in-api/",
+          "https://nango.dev/docs/integrations/all/grain-api-key"
+        ],
+        "pass1_urls": [
+          "https://grain.com/",
+          "https://en.wikipedia.org/wiki/Grain"
+        ],
+        "pass2_urls": [
+          "https://developers.grain.com/",
+          "https://api2cart.com/news/authentication-in-api/"
+        ]
+      },
+      {
+        "field": "one_liner",
+        "pass1_value": "The AI notetaker for agents and teams that captures and enriches your meetings, then delivers them to Claude, ChatGPT, or any AI tool.",
+        "pass2_value": "Grain is an API for accessing recordings and related data.",
+        "pass1_urls": [
+          "https://grain.com/",
+          "https://en.wikipedia.org/wiki/Grain"
+        ],
+        "pass2_urls": [
+          "https://developers.grain.com/",
+          "https://api2cart.com/news/authentication-in-api/"
+        ]
+      }
+    ],
+    "diff_count": 7,
+    "pass1_confidence": 0.2,
+    "pass2_confidence": 0.9
+  },
+  {
+    "id": 16,
+    "name": "LiveAgent",
+    "category": "Support and Helpdesk",
+    "diffs": [
+      {
+        "field": "api_breadth_note",
+        "pass1_value": "40+ endpoints covering contacts, deals, pipelines, and more.",
+        "pass2_value": "40+ endpoints covering contacts, deals, pipelines",
+        "pass1_urls": [
+          "https://support.liveagent.com/911737-API-v3",
+          "https://support.liveagent.com/167733-Documentation"
+        ],
+        "pass2_urls": [
+          "https://support.liveagent.com/741982-API-key",
+          "https://www.liveagent.com/features/api/"
+        ]
+      },
+      {
+        "field": "auth_methods",
+        "pass1_value": [
+          "OAuth2",
+          "API Key"
+        ],
+        "pass2_value": [
+          "API Key"
+        ],
+        "pass1_urls": [
+          "https://support.liveagent.com/911737-API-v3",
+          "https://support.liveagent.com/167733-Documentation"
+        ],
+        "pass2_urls": [
+          "https://support.liveagent.com/741982-API-key",
+          "https://www.liveagent.com/features/api/"
+        ]
+      },
+      {
+        "field": "evidence_urls",
+        "pass1_value": [
+          "https://support.liveagent.com/911737-API-v3",
+          "https://support.liveagent.com/167733-Documentation",
+          "https://support.liveagent.com/840770-Complete-API-reference"
+        ],
+        "pass2_value": [
+          "https://support.liveagent.com/741982-API-key",
+          "https://www.liveagent.com/features/api/",
+          "https://www.youtube.com/watch?v=IDXf9Rb6y8Q"
+        ],
+        "pass1_urls": [
+          "https://support.liveagent.com/911737-API-v3",
+          "https://support.liveagent.com/167733-Documentation"
+        ],
+        "pass2_urls": [
+          "https://support.liveagent.com/741982-API-key",
+          "https://www.liveagent.com/features/api/"
+        ]
+      },
+      {
+        "field": "one_liner",
+        "pass1_value": "LiveAgent is a help desk and customer service software that provides a REST API for integration and automation.",
+        "pass2_value": "LiveAgent's API enables seamless software communication, supporting actions like company retrieval and conversation creation.",
+        "pass1_urls": [
+          "https://support.liveagent.com/911737-API-v3",
+          "https://support.liveagent.com/167733-Documentation"
+        ],
+        "pass2_urls": [
+          "https://support.liveagent.com/741982-API-key",
+          "https://www.liveagent.com/features/api/"
+        ]
+      }
+    ],
+    "diff_count": 4,
+    "pass1_confidence": 0.8,
+    "pass2_confidence": 0.8
+  },
+  {
+    "id": 15,
+    "name": "Pylon",
+    "category": "Support and Helpdesk",
+    "diffs": [
+      {
+        "field": "access",
+        "pass1_value": "self_serve_free",
+        "pass2_value": "self_serve_trial",
+        "pass1_urls": [
+          "https://docs.usepylon.com/pylon-docs/developer/api/authentication",
+          "https://docs.usepylon.com/pylon-docs/developer/api"
+        ],
+        "pass2_urls": [
+          "https://docs.usepylon.com/pylon-docs/developer/api/authentication",
+          "https://pylon.cronit.io/docs/core-concepts/built-in-authentication-and-authorization"
+        ]
+      },
+      {
+        "field": "api_breadth_note",
+        "pass1_value": "40+ endpoints covering accounts, activities, attachments, audit logs, call recordings, contacts, custom fields, custom objects, feature requests, issues, knowledge base, macros, messages, surveys, tags, tasks & projects, teams, ticket forms, training data, user roles, and users.",
+        "pass2_value": "40+ endpoints covering contacts, deals, pipelines",
+        "pass1_urls": [
+          "https://docs.usepylon.com/pylon-docs/developer/api/authentication",
+          "https://docs.usepylon.com/pylon-docs/developer/api"
+        ],
+        "pass2_urls": [
+          "https://docs.usepylon.com/pylon-docs/developer/api/authentication",
+          "https://pylon.cronit.io/docs/core-concepts/built-in-authentication-and-authorization"
+        ]
+      },
+      {
+        "field": "api_surface",
+        "pass1_value": "rest",
+        "pass2_value": "graphql",
+        "pass1_urls": [
+          "https://docs.usepylon.com/pylon-docs/developer/api/authentication",
+          "https://docs.usepylon.com/pylon-docs/developer/api"
+        ],
+        "pass2_urls": [
+          "https://docs.usepylon.com/pylon-docs/developer/api/authentication",
+          "https://pylon.cronit.io/docs/core-concepts/built-in-authentication-and-authorization"
+        ]
+      },
+      {
+        "field": "auth_methods",
+        "pass1_value": [
+          "OAuth2"
+        ],
+        "pass2_value": [
+          "OAuth2",
+          "API Key"
+        ],
+        "pass1_urls": [
+          "https://docs.usepylon.com/pylon-docs/developer/api/authentication",
+          "https://docs.usepylon.com/pylon-docs/developer/api"
+        ],
+        "pass2_urls": [
+          "https://docs.usepylon.com/pylon-docs/developer/api/authentication",
+          "https://pylon.cronit.io/docs/core-concepts/built-in-authentication-and-authorization"
+        ]
+      },
+      {
+        "field": "blocker",
+        "pass1_value": "",
+        "pass2_value": "Only Admin users can create API tokens",
+        "pass1_urls": [
+          "https://docs.usepylon.com/pylon-docs/developer/api/authentication",
+          "https://docs.usepylon.com/pylon-docs/developer/api"
+        ],
+        "pass2_urls": [
+          "https://docs.usepylon.com/pylon-docs/developer/api/authentication",
+          "https://pylon.cronit.io/docs/core-concepts/built-in-authentication-and-authorization"
+        ]
+      },
+      {
+        "field": "buildable_verdict",
+        "pass1_value": "yes",
+        "pass2_value": "partial",
+        "pass1_urls": [
+          "https://docs.usepylon.com/pylon-docs/developer/api/authentication",
+          "https://docs.usepylon.com/pylon-docs/developer/api"
+        ],
+        "pass2_urls": [
+          "https://docs.usepylon.com/pylon-docs/developer/api/authentication",
+          "https://pylon.cronit.io/docs/core-concepts/built-in-authentication-and-authorization"
+        ]
+      },
+      {
+        "field": "confidence",
+        "pass1_value": 0.8,
+        "pass2_value": 0.6,
+        "pass1_urls": [
+          "https://docs.usepylon.com/pylon-docs/developer/api/authentication",
+          "https://docs.usepylon.com/pylon-docs/developer/api"
+        ],
+        "pass2_urls": [
+          "https://docs.usepylon.com/pylon-docs/developer/api/authentication",
+          "https://pylon.cronit.io/docs/core-concepts/built-in-authentication-and-authorization"
+        ]
+      },
+      {
+        "field": "evidence_urls",
+        "pass1_value": [
+          "https://docs.usepylon.com/pylon-docs/developer/api/authentication",
+          "https://docs.usepylon.com/pylon-docs/developer/api",
+          "https://docs.usepylon.com/pylon-docs/developer/api/api-reference"
+        ],
+        "pass2_value": [
+          "https://docs.usepylon.com/pylon-docs/developer/api/authentication",
+          "https://pylon.cronit.io/docs/core-concepts/built-in-authentication-and-authorization",
+          "https://docs.usepylon.com/pylon-docs/developer/api"
+        ],
+        "pass1_urls": [
+          "https://docs.usepylon.com/pylon-docs/developer/api/authentication",
+          "https://docs.usepylon.com/pylon-docs/developer/api"
+        ],
+        "pass2_urls": [
+          "https://docs.usepylon.com/pylon-docs/developer/api/authentication",
+          "https://pylon.cronit.io/docs/core-concepts/built-in-authentication-and-authorization"
+        ]
+      },
+      {
+        "field": "notes",
+        "pass1_value": "",
+        "pass2_value": "Requires integration with ZITADEL for user management and access control",
+        "pass1_urls": [
+          "https://docs.usepylon.com/pylon-docs/developer/api/authentication",
+          "https://docs.usepylon.com/pylon-docs/developer/api"
+        ],
+        "pass2_urls": [
+          "https://docs.usepylon.com/pylon-docs/developer/api/authentication",
+          "https://pylon.cronit.io/docs/core-concepts/built-in-authentication-and-authorization"
+        ]
+      },
+      {
+        "field": "one_liner",
+        "pass1_value": "Pylon's API allows programmatically accessing and taking action on data within Pylon.",
+        "pass2_value": "Pylon is a platform that simplifies user authentication and authorization with its comprehensive built-in features.",
+        "pass1_urls": [
+          "https://docs.usepylon.com/pylon-docs/developer/api/authentication",
+          "https://docs.usepylon.com/pylon-docs/developer/api"
+        ],
+        "pass2_urls": [
+          "https://docs.usepylon.com/pylon-docs/developer/api/authentication",
+          "https://pylon.cronit.io/docs/core-concepts/built-in-authentication-and-authorization"
+        ]
+      }
+    ],
+    "diff_count": 10,
+    "pass1_confidence": 0.8,
+    "pass2_confidence": 0.6
+  },
+  {
+    "id": 75,
+    "name": "Asana",
+    "category": "Productivity and Project Management",
+    "diffs": [
+      {
+        "field": "api_breadth_note",
+        "pass1_value": "40+ endpoints covering contacts, deals, pipelines",
+        "pass2_value": "Asana's open API provided a means to read and input information and create programmed automation within the app.",
+        "pass1_urls": [
+          "https://developers.asana.com/docs/api-explorer",
+          "https://developers.asana.com/docs/quick-start"
+        ],
+        "pass2_urls": [
+          "https://www.youtube.com/watch?v=Z5WT6TUxopw",
+          "https://en.wikipedia.org/wiki/Asana,_Inc."
+        ]
+      },
+      {
+        "field": "confidence",
+        "pass1_value": 0.9,
+        "pass2_value": 0.8,
+        "pass1_urls": [
+          "https://developers.asana.com/docs/api-explorer",
+          "https://developers.asana.com/docs/quick-start"
+        ],
+        "pass2_urls": [
+          "https://www.youtube.com/watch?v=Z5WT6TUxopw",
+          "https://en.wikipedia.org/wiki/Asana,_Inc."
+        ]
+      },
+      {
+        "field": "evidence_urls",
+        "pass1_value": [
+          "https://developers.asana.com/docs/api-explorer",
+          "https://developers.asana.com/docs/quick-start",
+          "https://developers.asana.com/reference/rest-api-reference"
+        ],
+        "pass2_value": [
+          "https://www.youtube.com/watch?v=Z5WT6TUxopw",
+          "https://en.wikipedia.org/wiki/Asana,_Inc.",
+          "https://play.google.com/store/apps/details?id=com.asana.app&hl=en_US"
+        ],
+        "pass1_urls": [
+          "https://developers.asana.com/docs/api-explorer",
+          "https://developers.asana.com/docs/quick-start"
+        ],
+        "pass2_urls": [
+          "https://www.youtube.com/watch?v=Z5WT6TUxopw",
+          "https://en.wikipedia.org/wiki/Asana,_Inc."
+        ]
+      },
+      {
+        "field": "one_liner",
+        "pass1_value": "Asana's API helps ensure all of your information is up to date and that your teams stay efficient and in-the-loop.",
+        "pass2_value": "Asana is a web and mobile 'work management' platform designed to help teams organize, track, and manage their work.",
+        "pass1_urls": [
+          "https://developers.asana.com/docs/api-explorer",
+          "https://developers.asana.com/docs/quick-start"
+        ],
+        "pass2_urls": [
+          "https://www.youtube.com/watch?v=Z5WT6TUxopw",
+          "https://en.wikipedia.org/wiki/Asana,_Inc."
+        ]
+      }
+    ],
+    "diff_count": 4,
+    "pass1_confidence": 0.9,
+    "pass2_confidence": 0.8
+  },
+  {
+    "id": 14,
+    "name": "Front",
+    "category": "Support and Helpdesk",
+    "diffs": [
+      {
+        "field": "api_breadth_note",
+        "pass1_value": "The Core API provides a rich variety of endpoints.",
+        "pass2_value": "40+ endpoints covering contacts, deals, pipelines, and more.",
+        "pass1_urls": [
+          "https://dev.frontapp.com/docs/core-api-getting-started",
+          "https://dev.frontapp.com/docs/authentication"
+        ],
+        "pass2_urls": [
+          "https://dev.frontapp.com/docs/authentication",
+          "https://community.front.com/developer-q-a-37/consume-api-with-basic-authentication-696"
+        ]
+      },
+      {
+        "field": "api_surface",
+        "pass1_value": "rest",
+        "pass2_value": "both",
+        "pass1_urls": [
+          "https://dev.frontapp.com/docs/core-api-getting-started",
+          "https://dev.frontapp.com/docs/authentication"
+        ],
+        "pass2_urls": [
+          "https://dev.frontapp.com/docs/authentication",
+          "https://community.front.com/developer-q-a-37/consume-api-with-basic-authentication-696"
+        ]
+      },
+      {
+        "field": "evidence_urls",
+        "pass1_value": [
+          "https://dev.frontapp.com/docs/core-api-getting-started",
+          "https://dev.frontapp.com/docs/authentication",
+          "https://dev.frontapp.com/docs/core-api-overview"
+        ],
+        "pass2_value": [
+          "https://dev.frontapp.com/docs/authentication",
+          "https://community.front.com/developer-q-a-37/consume-api-with-basic-authentication-696",
+          "https://dev.frontapp.com/docs/welcome"
+        ],
+        "pass1_urls": [
+          "https://dev.frontapp.com/docs/core-api-getting-started",
+          "https://dev.frontapp.com/docs/authentication"
+        ],
+        "pass2_urls": [
+          "https://dev.frontapp.com/docs/authentication",
+          "https://community.front.com/developer-q-a-37/consume-api-with-basic-authentication-696"
+        ]
+      },
+      {
+        "field": "one_liner",
+        "pass1_value": "Front is a platform for managing customer interactions and automating workflows.",
+        "pass2_value": "Build custom integrations for your team or publicly launch a Front integration.",
+        "pass1_urls": [
+          "https://dev.frontapp.com/docs/core-api-getting-started",
+          "https://dev.frontapp.com/docs/authentication"
+        ],
+        "pass2_urls": [
+          "https://dev.frontapp.com/docs/authentication",
+          "https://community.front.com/developer-q-a-37/consume-api-with-basic-authentication-696"
+        ]
+      }
+    ],
+    "diff_count": 4,
+    "pass1_confidence": 0.9,
+    "pass2_confidence": 0.9
+  },
+  {
+    "id": 2,
+    "name": "HubSpot",
+    "category": "CRM and Sales",
+    "diffs": [
+      {
+        "field": "auth_methods",
+        "pass1_value": [
+          "OAuth2",
+          "API Key",
+          "Client Credentials"
+        ],
+        "pass2_value": [
+          "OAuth2",
+          "API Key",
+          "Basic",
+          "Token"
+        ],
+        "pass1_urls": [
+          "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/overview",
+          "https://www.docuwriter.ai/posts/hubspot-api-docs"
+        ],
+        "pass2_urls": [
+          "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/overview",
+          "https://developers.hubspot.com/docs/apps/legacy-apps/authentication/intro-to-auth"
+        ]
+      },
+      {
+        "field": "confidence",
+        "pass1_value": 0.8,
+        "pass2_value": 0.9,
+        "pass1_urls": [
+          "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/overview",
+          "https://www.docuwriter.ai/posts/hubspot-api-docs"
+        ],
+        "pass2_urls": [
+          "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/overview",
+          "https://developers.hubspot.com/docs/apps/legacy-apps/authentication/intro-to-auth"
+        ]
+      },
+      {
+        "field": "evidence_urls",
+        "pass1_value": [
+          "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/overview",
+          "https://www.docuwriter.ai/posts/hubspot-api-docs",
+          "https://developers.hubspot.com/docs"
+        ],
+        "pass2_value": [
+          "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/overview",
+          "https://developers.hubspot.com/docs/apps/legacy-apps/authentication/intro-to-auth",
+          "https://community.hubspot.com/t/solution-simplifying-hubspot-api-authentication-for-seamless-integration/142307"
+        ],
+        "pass1_urls": [
+          "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/overview",
+          "https://www.docuwriter.ai/posts/hubspot-api-docs"
+        ],
+        "pass2_urls": [
+          "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/overview",
+          "https://developers.hubspot.com/docs/apps/legacy-apps/authentication/intro-to-auth"
+        ]
+      },
+      {
+        "field": "notes",
+        "pass1_value": "Teams that treat HubSpot API docs as reference material only tend to accumulate fragile scripts and copied snippets.",
+        "pass2_value": "",
+        "pass1_urls": [
+          "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/overview",
+          "https://www.docuwriter.ai/posts/hubspot-api-docs"
+        ],
+        "pass2_urls": [
+          "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/overview",
+          "https://developers.hubspot.com/docs/apps/legacy-apps/authentication/intro-to-auth"
+        ]
+      },
+      {
+        "field": "one_liner",
+        "pass1_value": "HubSpot is a connected platform with CRM, CMS, marketing, service, reporting, commerce, and AI features that affect how data moves through the account.",
+        "pass2_value": "HubSpot is a platform for building apps that integrate with HubSpot's CRM, sales, marketing, and customer service tools.",
+        "pass1_urls": [
+          "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/overview",
+          "https://www.docuwriter.ai/posts/hubspot-api-docs"
+        ],
+        "pass2_urls": [
+          "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/overview",
+          "https://developers.hubspot.com/docs/apps/legacy-apps/authentication/intro-to-auth"
+        ]
+      }
+    ],
+    "diff_count": 5,
+    "pass1_confidence": 0.8,
+    "pass2_confidence": 0.9
+  },
+  {
+    "id": 10,
+    "name": "DealCloud",
+    "category": "CRM and Sales",
+    "diffs": [
+      {
+        "field": "api_breadth_note",
+        "pass1_value": "40+ endpoints covering contacts, deals, pipelines, user management, schema, data, backups, publications, and relationship intelligence.",
+        "pass2_value": "40+ endpoints covering contacts, deals, pipelines",
+        "pass1_urls": [
+          "https://api.docs.dealcloud.com/docs",
+          "https://api.docs.dealcloud.com/docs"
+        ],
+        "pass2_urls": [
+          "https://api.docs.dealcloud.com/sdk/python/authentication",
+          "https://api.docs.dealcloud.com/guides/making_requests_on_behalf_of_users"
+        ]
+      },
+      {
+        "field": "auth_methods",
+        "pass1_value": [
+          "OAuth2"
+        ],
+        "pass2_value": [
+          "OAuth2",
+          "API Key"
+        ],
+        "pass1_urls": [
+          "https://api.docs.dealcloud.com/docs",
+          "https://api.docs.dealcloud.com/docs"
+        ],
+        "pass2_urls": [
+          "https://api.docs.dealcloud.com/sdk/python/authentication",
+          "https://api.docs.dealcloud.com/guides/making_requests_on_behalf_of_users"
+        ]
+      },
+      {
+        "field": "evidence_urls",
+        "pass1_value": [
+          "https://api.docs.dealcloud.com/docs",
+          "https://api.docs.dealcloud.com/docs",
+          "https://api.docs.dealcloud.com/docs/token"
+        ],
+        "pass2_value": [
+          "https://api.docs.dealcloud.com/sdk/python/authentication",
+          "https://api.docs.dealcloud.com/guides/making_requests_on_behalf_of_users",
+          "https://api.docs.dealcloud.com/docs/apikeys"
+        ],
+        "pass1_urls": [
+          "https://api.docs.dealcloud.com/docs",
+          "https://api.docs.dealcloud.com/docs"
+        ],
+        "pass2_urls": [
+          "https://api.docs.dealcloud.com/sdk/python/authentication",
+          "https://api.docs.dealcloud.com/guides/making_requests_on_behalf_of_users"
+        ]
+      },
+      {
+        "field": "one_liner",
+        "pass1_value": "DealCloud API Docs provide a comprehensive overview of REST APIs, their capabilities, and available endpoints.",
+        "pass2_value": "DealCloud is a platform for managing deals and sales pipelines.",
+        "pass1_urls": [
+          "https://api.docs.dealcloud.com/docs",
+          "https://api.docs.dealcloud.com/docs"
+        ],
+        "pass2_urls": [
+          "https://api.docs.dealcloud.com/sdk/python/authentication",
+          "https://api.docs.dealcloud.com/guides/making_requests_on_behalf_of_users"
+        ]
+      }
+    ],
+    "diff_count": 4,
+    "pass1_confidence": 0.8,
+    "pass2_confidence": 0.8
+  },
+  {
+    "id": 59,
+    "name": "Waterfall.io",
+    "category": "Data, SEO and Scraping",
+    "diffs": [
+      {
+        "field": "access",
+        "pass1_value": "self_serve_free",
+        "pass2_value": "self_serve_trial",
+        "pass1_urls": [
+          "https://docs.waterfall.io/v1/authentication",
+          "https://docs.waterfall.io/v1/introduction"
+        ],
+        "pass2_urls": [
+          "https://docs.waterfall.io/v1/authentication",
+          "https://docs.waterfall.io/v1/api-keys-create"
+        ]
+      },
+      {
+        "field": "api_breadth_note",
+        "pass1_value": "40+ endpoints covering contacts, deals, pipelines",
+        "pass2_value": "40+ endpoints covering contacts, deals, pipelines, and more",
+        "pass1_urls": [
+          "https://docs.waterfall.io/v1/authentication",
+          "https://docs.waterfall.io/v1/introduction"
+        ],
+        "pass2_urls": [
+          "https://docs.waterfall.io/v1/authentication",
+          "https://docs.waterfall.io/v1/api-keys-create"
+        ]
+      },
+      {
+        "field": "blocker",
+        "pass1_value": "",
+        "pass2_value": "Requires a master API key, and some endpoints may require a paid plan or trial",
+        "pass1_urls": [
+          "https://docs.waterfall.io/v1/authentication",
+          "https://docs.waterfall.io/v1/introduction"
+        ],
+        "pass2_urls": [
+          "https://docs.waterfall.io/v1/authentication",
+          "https://docs.waterfall.io/v1/api-keys-create"
+        ]
+      },
+      {
+        "field": "buildable_verdict",
+        "pass1_value": "yes",
+        "pass2_value": "partial",
+        "pass1_urls": [
+          "https://docs.waterfall.io/v1/authentication",
+          "https://docs.waterfall.io/v1/introduction"
+        ],
+        "pass2_urls": [
+          "https://docs.waterfall.io/v1/authentication",
+          "https://docs.waterfall.io/v1/api-keys-create"
+        ]
+      },
+      {
+        "field": "evidence_urls",
+        "pass1_value": [
+          "https://docs.waterfall.io/v1/authentication",
+          "https://docs.waterfall.io/v1/introduction",
+          "https://keploy.io/blog/community/waterfall-api-a-comprehensive-guide"
+        ],
+        "pass2_value": [
+          "https://docs.waterfall.io/v1/authentication",
+          "https://docs.waterfall.io/v1/api-keys-create",
+          "https://docs.waterfall.io/v1/introduction"
+        ],
+        "pass1_urls": [
+          "https://docs.waterfall.io/v1/authentication",
+          "https://docs.waterfall.io/v1/introduction"
+        ],
+        "pass2_urls": [
+          "https://docs.waterfall.io/v1/authentication",
+          "https://docs.waterfall.io/v1/api-keys-create"
+        ]
+      },
+      {
+        "field": "notes",
+        "pass1_value": "",
+        "pass2_value": "Some endpoints may require a paid plan or trial, and the API has a rate limit constraint",
+        "pass1_urls": [
+          "https://docs.waterfall.io/v1/authentication",
+          "https://docs.waterfall.io/v1/introduction"
+        ],
+        "pass2_urls": [
+          "https://docs.waterfall.io/v1/authentication",
+          "https://docs.waterfall.io/v1/api-keys-create"
+        ]
+      },
+      {
+        "field": "one_liner",
+        "pass1_value": "The Waterfall API is a sequentially and methodically defined approach for managing data flows and integration of services in software development.",
+        "pass2_value": "The Waterfall API is a REST API that allows users to create, list, and manage API keys, as well as access various endpoints for prospecting, searching, and enriching contacts and companies.",
+        "pass1_urls": [
+          "https://docs.waterfall.io/v1/authentication",
+          "https://docs.waterfall.io/v1/introduction"
+        ],
+        "pass2_urls": [
+          "https://docs.waterfall.io/v1/authentication",
+          "https://docs.waterfall.io/v1/api-keys-create"
+        ]
+      }
+    ],
+    "diff_count": 7,
+    "pass1_confidence": 0.8,
+    "pass2_confidence": 0.8
+  },
+  {
+    "id": 17,
+    "name": "Plain",
+    "category": "Support and Helpdesk",
+    "diffs": [
+      {
+        "field": "api_surface",
+        "pass1_value": "graphql",
+        "pass2_value": "rest",
+        "pass1_urls": [
+          "https://help.plain.com/article/developer",
+          "https://help.plain.com/article/api-quickstart"
+        ],
+        "pass2_urls": [
+          "https://www.youtube.com/watch?v=PbUcQUQ7K2o",
+          "https://developers.plane.so/api-reference/introduction"
+        ]
+      },
+      {
+        "field": "auth_methods",
+        "pass1_value": [
+          "OAuth2",
+          "API Key"
+        ],
+        "pass2_value": [
+          "API Key",
+          "OAuth 2.0"
+        ],
+        "pass1_urls": [
+          "https://help.plain.com/article/developer",
+          "https://help.plain.com/article/api-quickstart"
+        ],
+        "pass2_urls": [
+          "https://www.youtube.com/watch?v=PbUcQUQ7K2o",
+          "https://developers.plane.so/api-reference/introduction"
+        ]
+      },
+      {
+        "field": "confidence",
+        "pass1_value": 0.8,
+        "pass2_value": 0.9,
+        "pass1_urls": [
+          "https://help.plain.com/article/developer",
+          "https://help.plain.com/article/api-quickstart"
+        ],
+        "pass2_urls": [
+          "https://www.youtube.com/watch?v=PbUcQUQ7K2o",
+          "https://developers.plane.so/api-reference/introduction"
+        ]
+      },
+      {
+        "field": "evidence_urls",
+        "pass1_value": [
+          "https://help.plain.com/article/developer",
+          "https://help.plain.com/article/api-quickstart",
+          "https://www.postman.com/api-platform/api-documentation/"
+        ],
+        "pass2_value": [
+          "https://www.youtube.com/watch?v=PbUcQUQ7K2o",
+          "https://developers.plane.so/api-reference/introduction",
+          "https://readme.com/resources/api-authentication"
+        ],
+        "pass1_urls": [
+          "https://help.plain.com/article/developer",
+          "https://help.plain.com/article/api-quickstart"
+        ],
+        "pass2_urls": [
+          "https://www.youtube.com/watch?v=PbUcQUQ7K2o",
+          "https://developers.plane.so/api-reference/introduction"
+        ]
+      },
+      {
+        "field": "one_liner",
+        "pass1_value": "Plain has been built from the ground up as an API first platform.",
+        "pass2_value": "The Plane API is a REST API for managing workspaces, projects, and work items.",
+        "pass1_urls": [
+          "https://help.plain.com/article/developer",
+          "https://help.plain.com/article/api-quickstart"
+        ],
+        "pass2_urls": [
+          "https://www.youtube.com/watch?v=PbUcQUQ7K2o",
+          "https://developers.plane.so/api-reference/introduction"
+        ]
+      }
+    ],
+    "diff_count": 5,
+    "pass1_confidence": 0.8,
+    "pass2_confidence": 0.9
+  },
+  {
+    "id": 91,
+    "name": "NotebookLM",
+    "category": "AI, Research and Media-native",
+    "diffs": [
+      {
+        "field": "api_breadth_note",
+        "pass1_value": "40+ endpoints covering contacts, deals, pipelines",
+        "pass2_value": "40+ endpoints covering notebooks, including create, retrieve, list, delete, and share.",
+        "pass1_urls": [
+          "https://autocontentapi.com/notebooklm-api",
+          "https://medium.com/@TusharKanjariya/i-tried-google-notebooklm-as-a-developer-067caa74c9ad"
+        ],
+        "pass2_urls": [
+          "https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+          "https://www.youtube.com/watch?v=tXZlegQhV6Q"
+        ]
+      },
+      {
+        "field": "auth_methods",
+        "pass1_value": [
+          "OAuth2",
+          "API Key"
+        ],
+        "pass2_value": [
+          "OAuth2"
+        ],
+        "pass1_urls": [
+          "https://autocontentapi.com/notebooklm-api",
+          "https://medium.com/@TusharKanjariya/i-tried-google-notebooklm-as-a-developer-067caa74c9ad"
+        ],
+        "pass2_urls": [
+          "https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+          "https://www.youtube.com/watch?v=tXZlegQhV6Q"
+        ]
+      },
+      {
+        "field": "confidence",
+        "pass1_value": 0.8,
+        "pass2_value": 0.9,
+        "pass1_urls": [
+          "https://autocontentapi.com/notebooklm-api",
+          "https://medium.com/@TusharKanjariya/i-tried-google-notebooklm-as-a-developer-067caa74c9ad"
+        ],
+        "pass2_urls": [
+          "https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+          "https://www.youtube.com/watch?v=tXZlegQhV6Q"
+        ]
+      },
+      {
+        "field": "evidence_urls",
+        "pass1_value": [
+          "https://autocontentapi.com/notebooklm-api",
+          "https://medium.com/@TusharKanjariya/i-tried-google-notebooklm-as-a-developer-067caa74c9ad",
+          "https://discuss.ai.google.dev/t/notebooklm-api/55950"
+        ],
+        "pass2_value": [
+          "https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+          "https://www.youtube.com/watch?v=tXZlegQhV6Q",
+          "https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/set-up-notebooklm"
+        ],
+        "pass1_urls": [
+          "https://autocontentapi.com/notebooklm-api",
+          "https://medium.com/@TusharKanjariya/i-tried-google-notebooklm-as-a-developer-067caa74c9ad"
+        ],
+        "pass2_urls": [
+          "https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+          "https://www.youtube.com/watch?v=tXZlegQhV6Q"
+        ]
+      },
+      {
+        "field": "notes",
+        "pass1_value": "Google's NotebookLM Enterprise API is also available, but it's an enterprise surface.",
+        "pass2_value": "",
+        "pass1_urls": [
+          "https://autocontentapi.com/notebooklm-api",
+          "https://medium.com/@TusharKanjariya/i-tried-google-notebooklm-as-a-developer-067caa74c9ad"
+        ],
+        "pass2_urls": [
+          "https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+          "https://www.youtube.com/watch?v=tXZlegQhV6Q"
+        ]
+      },
+      {
+        "field": "one_liner",
+        "pass1_value": "Create AI-generated podcasts programmatically with our public REST API, complete documentation, and SDKs.",
+        "pass2_value": "Stay organized with collections and generate insights and summaries from your documents.",
+        "pass1_urls": [
+          "https://autocontentapi.com/notebooklm-api",
+          "https://medium.com/@TusharKanjariya/i-tried-google-notebooklm-as-a-developer-067caa74c9ad"
+        ],
+        "pass2_urls": [
+          "https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+          "https://www.youtube.com/watch?v=tXZlegQhV6Q"
+        ]
+      }
+    ],
+    "diff_count": 6,
+    "pass1_confidence": 0.8,
+    "pass2_confidence": 0.9
+  },
+  {
+    "id": 97,
+    "name": "higgsfield",
+    "category": "AI, Research and Media-native",
+    "diffs": [
+      {
+        "field": "access",
+        "pass1_value": "self_serve_free",
+        "pass2_value": "self_serve_trial",
+        "pass1_urls": [
+          "https://videogenapi.com/higgsfield_v1-api",
+          "https://apps.make.com/higgsfield-ai-sxl99v"
+        ],
+        "pass2_urls": [
+          "https://cloud.higgsfield.ai/",
+          "https://apps.make.com/higgsfield-ai-sxl99v"
+        ]
+      },
+      {
+        "field": "api_surface",
+        "pass1_value": "REST",
+        "pass2_value": "rest",
+        "pass1_urls": [
+          "https://videogenapi.com/higgsfield_v1-api",
+          "https://apps.make.com/higgsfield-ai-sxl99v"
+        ],
+        "pass2_urls": [
+          "https://cloud.higgsfield.ai/",
+          "https://apps.make.com/higgsfield-ai-sxl99v"
+        ]
+      },
+      {
+        "field": "auth_methods",
+        "pass1_value": [
+          "API Key"
+        ],
+        "pass2_value": [
+          "OAuth2",
+          "API Key"
+        ],
+        "pass1_urls": [
+          "https://videogenapi.com/higgsfield_v1-api",
+          "https://apps.make.com/higgsfield-ai-sxl99v"
+        ],
+        "pass2_urls": [
+          "https://cloud.higgsfield.ai/",
+          "https://apps.make.com/higgsfield-ai-sxl99v"
+        ]
+      },
+      {
+        "field": "buildable_verdict",
+        "pass1_value": "yes",
+        "pass2_value": "partial",
+        "pass1_urls": [
+          "https://videogenapi.com/higgsfield_v1-api",
+          "https://apps.make.com/higgsfield-ai-sxl99v"
+        ],
+        "pass2_urls": [
+          "https://cloud.higgsfield.ai/",
+          "https://apps.make.com/higgsfield-ai-sxl99v"
+        ]
+      },
+      {
+        "field": "evidence_urls",
+        "pass1_value": [
+          "https://videogenapi.com/higgsfield_v1-api",
+          "https://apps.make.com/higgsfield-ai-sxl99v",
+          "https://apidog.com/blog/higgsfield-api/"
+        ],
+        "pass2_value": [
+          "https://cloud.higgsfield.ai/",
+          "https://apps.make.com/higgsfield-ai-sxl99v",
+          "https://www.mindstudio.ai/blog/higgsfield-cli-claude-code-content-automation"
+        ],
+        "pass1_urls": [
+          "https://videogenapi.com/higgsfield_v1-api",
+          "https://apps.make.com/higgsfield-ai-sxl99v"
+        ],
+        "pass2_urls": [
+          "https://cloud.higgsfield.ai/",
+          "https://apps.make.com/higgsfield-ai-sxl99v"
+        ]
+      },
+      {
+        "field": "one_liner",
+        "pass1_value": "Higgsfield AI is a video creation platform that generates personalized videos from text or images.",
+        "pass2_value": "an ai powered video creation platform that generates personalized videos from text or images",
+        "pass1_urls": [
+          "https://videogenapi.com/higgsfield_v1-api",
+          "https://apps.make.com/higgsfield-ai-sxl99v"
+        ],
+        "pass2_urls": [
+          "https://cloud.higgsfield.ai/",
+          "https://apps.make.com/higgsfield-ai-sxl99v"
+        ]
+      }
+    ],
+    "diff_count": 6,
+    "pass1_confidence": 0.8,
+    "pass2_confidence": 0.8
+  },
+  {
+    "id": 55,
+    "name": "Apify",
+    "category": "Data, SEO and Scraping",
+    "diffs": [
+      {
+        "field": "confidence",
+        "pass1_value": 0.8,
+        "pass2_value": 0.9,
+        "pass1_urls": [
+          "https://docs.apify.com/api",
+          "https://docs.apify.com/api/v2"
+        ],
+        "pass2_urls": [
+          "https://docs.apify.com/integrations/api",
+          "https://docs.apify.com/api/v2"
+        ]
+      },
+      {
+        "field": "evidence_urls",
+        "pass1_value": [
+          "https://docs.apify.com/api",
+          "https://docs.apify.com/api/v2",
+          "https://docs.apify.com/integrations/api"
+        ],
+        "pass2_value": [
+          "https://docs.apify.com/integrations/api",
+          "https://docs.apify.com/api/v2",
+          "https://docs.apify.com/api/v2/getting-started"
+        ],
+        "pass1_urls": [
+          "https://docs.apify.com/api",
+          "https://docs.apify.com/api/v2"
+        ],
+        "pass2_urls": [
+          "https://docs.apify.com/integrations/api",
+          "https://docs.apify.com/api/v2"
+        ]
+      },
+      {
+        "field": "one_liner",
+        "pass1_value": "The Apify API provides programmatic access to the Apify platform.",
+        "pass2_value": "Control all aspects of the Apify platform via a REST API.",
+        "pass1_urls": [
+          "https://docs.apify.com/api",
+          "https://docs.apify.com/api/v2"
+        ],
+        "pass2_urls": [
+          "https://docs.apify.com/integrations/api",
+          "https://docs.apify.com/api/v2"
+        ]
+      }
+    ],
+    "diff_count": 3,
+    "pass1_confidence": 0.8,
+    "pass2_confidence": 0.9
+  },
+  {
+    "id": 87,
+    "name": "Xero",
+    "category": "Finance and Fintech",
+    "diffs": [
+      {
+        "field": "api_breadth_note",
+        "pass1_value": "40+ endpoints covering accounts.",
+        "pass2_value": "40+ endpoints covering contacts, deals, pipelines",
+        "pass1_urls": [
+          "https://developer.xero.com/documentation/api/accounting/overview",
+          "https://developer.xero.com/documentation/api/accounting/accounts"
+        ],
+        "pass2_urls": [
+          "https://developer.xero.com/faq/getting-started",
+          "https://developer.xero.com/documentation/getting-started-guide"
+        ]
+      },
+      {
+        "field": "api_surface",
+        "pass1_value": "rest",
+        "pass2_value": "both",
+        "pass1_urls": [
+          "https://developer.xero.com/documentation/api/accounting/overview",
+          "https://developer.xero.com/documentation/api/accounting/accounts"
+        ],
+        "pass2_urls": [
+          "https://developer.xero.com/faq/getting-started",
+          "https://developer.xero.com/documentation/getting-started-guide"
+        ]
+      },
+      {
+        "field": "confidence",
+        "pass1_value": 1.0,
+        "pass2_value": 0.9,
+        "pass1_urls": [
+          "https://developer.xero.com/documentation/api/accounting/overview",
+          "https://developer.xero.com/documentation/api/accounting/accounts"
+        ],
+        "pass2_urls": [
+          "https://developer.xero.com/faq/getting-started",
+          "https://developer.xero.com/documentation/getting-started-guide"
+        ]
+      },
+      {
+        "field": "evidence_urls",
+        "pass1_value": [
+          "https://developer.xero.com/documentation/api/accounting/overview",
+          "https://developer.xero.com/documentation/api/accounting/accounts",
+          "https://developer.xero.com/documentation/getting-started-guide"
+        ],
+        "pass2_value": [
+          "https://developer.xero.com/faq/getting-started",
+          "https://developer.xero.com/documentation/getting-started-guide",
+          "https://developer.xero.com/documentation/guides/oauth2/auth-flow"
+        ],
+        "pass1_urls": [
+          "https://developer.xero.com/documentation/api/accounting/overview",
+          "https://developer.xero.com/documentation/api/accounting/accounts"
+        ],
+        "pass2_urls": [
+          "https://developer.xero.com/faq/getting-started",
+          "https://developer.xero.com/documentation/getting-started-guide"
+        ]
+      },
+      {
+        "field": "one_liner",
+        "pass1_value": "Access Xero's accounting data via API.",
+        "pass2_value": "Xero is an accounting and bookkeeping platform that provides APIs for integration.",
+        "pass1_urls": [
+          "https://developer.xero.com/documentation/api/accounting/overview",
+          "https://developer.xero.com/documentation/api/accounting/accounts"
+        ],
+        "pass2_urls": [
+          "https://developer.xero.com/faq/getting-started",
+          "https://developer.xero.com/documentation/getting-started-guide"
+        ]
+      }
+    ],
+    "diff_count": 5,
+    "pass1_confidence": 1.0,
+    "pass2_confidence": 0.9
+  },
+  {
+    "id": 76,
+    "name": "Monday.com",
+    "category": "Productivity and Project Management",
+    "diffs": [
+      {
+        "field": "auth_methods",
+        "pass1_value": [
+          "OAuth2",
+          "API Key",
+          "Basic",
+          "Token",
+          "Other"
+        ],
+        "pass2_value": [
+          "OAuth2",
+          "API Token"
+        ],
+        "pass1_urls": [
+          "https://developer.monday.com/api-reference/docs/basics",
+          "https://developer.monday.com/api-reference"
+        ],
+        "pass2_urls": [
+          "https://developer.monday.com/api-reference/docs/authentication",
+          "https://developer.monday.com/apps/docs/manage-user-tokens-and-credentials"
+        ]
+      },
+      {
+        "field": "evidence_urls",
+        "pass1_value": [
+          "https://developer.monday.com/api-reference/docs/basics",
+          "https://developer.monday.com/api-reference",
+          "https://developer.monday.com/api-reference/docs/introduction-to-graphql"
+        ],
+        "pass2_value": [
+          "https://developer.monday.com/api-reference/docs/authentication",
+          "https://developer.monday.com/apps/docs/manage-user-tokens-and-credentials",
+          "https://developer.monday.com/api-reference/docs/getting-started"
+        ],
+        "pass1_urls": [
+          "https://developer.monday.com/api-reference/docs/basics",
+          "https://developer.monday.com/api-reference"
+        ],
+        "pass2_urls": [
+          "https://developer.monday.com/api-reference/docs/authentication",
+          "https://developer.monday.com/apps/docs/manage-user-tokens-and-credentials"
+        ]
+      },
+      {
+        "field": "one_liner",
+        "pass1_value": "monday.com is a work OS where teams create and shape their own workflows in minutes, code-free.",
+        "pass2_value": "monday.com is a work operating system that enables teams to plan, organize, and track work.",
+        "pass1_urls": [
+          "https://developer.monday.com/api-reference/docs/basics",
+          "https://developer.monday.com/api-reference"
+        ],
+        "pass2_urls": [
+          "https://developer.monday.com/api-reference/docs/authentication",
+          "https://developer.monday.com/apps/docs/manage-user-tokens-and-credentials"
+        ]
+      }
+    ],
+    "diff_count": 3,
+    "pass1_confidence": 0.9,
+    "pass2_confidence": 0.9
+  },
+  {
+    "id": 84,
+    "name": "Paygent Connect",
+    "category": "Finance and Fintech",
+    "diffs": [
+      {
+        "field": "access",
+        "pass1_value": "unclear",
+        "pass2_value": "self_serve_free",
+        "pass1_urls": [
+          "https://docs.payaconnect.com/developers",
+          "https://validate.perfdrive.com/64b926de080836ab9a2812de3f961c22/?ssa=af15ef9e-248f-4139-90b5-75e3969de988&ssb=54997277161&ssc=https%3A%2F%2Fwww.cardconnect.com%2Flaunchpointe%2Fisv-growth%2Fguide-for-developers&ssi=58dbf1a3-cxmm-4ee1-9504-c80656673fbf&ssk=botmanager_support@radware.com&ssm=96888658260658433108075206342621&ssn=a6883519414cae64ebe42da882e428711221c0aa7e16-ac0a-40fe-8ff2d3&sso=d46cb9fc-2cf8b72278ad3d505eec6afc3532d711919fc5d05f36df09&ssp=54675065391783523161178357522420726&ssq=20628454651286258670146512746242864499147&ssr=NDkuMzYuMTkyLjIwNw==&sst=Mozilla/5.0%20(Windows%20NT%2010.0;%20Win64;%20x64)%20AppleWebKit/537.36%20(KHTML,%20like%20Gecko)%20Chrome/120.0.0.0%20Safari/537.36&ssu=&ssv=&ssw=&ssx=eyJfX3V6bWYiOiI3ZjkwMDBjMGFhN2UxNi1hYzBhLTQwZmUtODlmYy0yY2Y4YjcyMjc4YWQxLTE3ODM1NDY1MTIxMjkwLTAwNDE1MmYyZWE4NzQ5N2Y4NjMxMCJ9"
+        ],
+        "pass2_urls": [
+          "https://developer.icemortgagetechnology.com/developer-connect/docs/authenticating-to-developer-connect-and-other-external-websites-1",
+          "https://developer.amazon.com/docs/app-submission-api/auth.html"
+        ]
+      },
+      {
+        "field": "api_breadth_note",
+        "pass1_value": "Many APIs are similar in the way that they handle requests and response. Ours is not much different than the rest.",
+        "pass2_value": "40+ endpoints covering contacts, deals, pipelines",
+        "pass1_urls": [
+          "https://docs.payaconnect.com/developers",
+          "https://validate.perfdrive.com/64b926de080836ab9a2812de3f961c22/?ssa=af15ef9e-248f-4139-90b5-75e3969de988&ssb=54997277161&ssc=https%3A%2F%2Fwww.cardconnect.com%2Flaunchpointe%2Fisv-growth%2Fguide-for-developers&ssi=58dbf1a3-cxmm-4ee1-9504-c80656673fbf&ssk=botmanager_support@radware.com&ssm=96888658260658433108075206342621&ssn=a6883519414cae64ebe42da882e428711221c0aa7e16-ac0a-40fe-8ff2d3&sso=d46cb9fc-2cf8b72278ad3d505eec6afc3532d711919fc5d05f36df09&ssp=54675065391783523161178357522420726&ssq=20628454651286258670146512746242864499147&ssr=NDkuMzYuMTkyLjIwNw==&sst=Mozilla/5.0%20(Windows%20NT%2010.0;%20Win64;%20x64)%20AppleWebKit/537.36%20(KHTML,%20like%20Gecko)%20Chrome/120.0.0.0%20Safari/537.36&ssu=&ssv=&ssw=&ssx=eyJfX3V6bWYiOiI3ZjkwMDBjMGFhN2UxNi1hYzBhLTQwZmUtODlmYy0yY2Y4YjcyMjc4YWQxLTE3ODM1NDY1MTIxMjkwLTAwNDE1MmYyZWE4NzQ5N2Y4NjMxMCJ9"
+        ],
+        "pass2_urls": [
+          "https://developer.icemortgagetechnology.com/developer-connect/docs/authenticating-to-developer-connect-and-other-external-websites-1",
+          "https://developer.amazon.com/docs/app-submission-api/auth.html"
+        ]
+      },
+      {
+        "field": "auth_methods",
+        "pass1_value": [
+          "HMAC Authorization"
+        ],
+        "pass2_value": [
+          "OAuth2"
+        ],
+        "pass1_urls": [
+          "https://docs.payaconnect.com/developers",
+          "https://validate.perfdrive.com/64b926de080836ab9a2812de3f961c22/?ssa=af15ef9e-248f-4139-90b5-75e3969de988&ssb=54997277161&ssc=https%3A%2F%2Fwww.cardconnect.com%2Flaunchpointe%2Fisv-growth%2Fguide-for-developers&ssi=58dbf1a3-cxmm-4ee1-9504-c80656673fbf&ssk=botmanager_support@radware.com&ssm=96888658260658433108075206342621&ssn=a6883519414cae64ebe42da882e428711221c0aa7e16-ac0a-40fe-8ff2d3&sso=d46cb9fc-2cf8b72278ad3d505eec6afc3532d711919fc5d05f36df09&ssp=54675065391783523161178357522420726&ssq=20628454651286258670146512746242864499147&ssr=NDkuMzYuMTkyLjIwNw==&sst=Mozilla/5.0%20(Windows%20NT%2010.0;%20Win64;%20x64)%20AppleWebKit/537.36%20(KHTML,%20like%20Gecko)%20Chrome/120.0.0.0%20Safari/537.36&ssu=&ssv=&ssw=&ssx=eyJfX3V6bWYiOiI3ZjkwMDBjMGFhN2UxNi1hYzBhLTQwZmUtODlmYy0yY2Y4YjcyMjc4YWQxLTE3ODM1NDY1MTIxMjkwLTAwNDE1MmYyZWE4NzQ5N2Y4NjMxMCJ9"
+        ],
+        "pass2_urls": [
+          "https://developer.icemortgagetechnology.com/developer-connect/docs/authenticating-to-developer-connect-and-other-external-websites-1",
+          "https://developer.amazon.com/docs/app-submission-api/auth.html"
+        ]
+      },
+      {
+        "field": "blocker",
+        "pass1_value": "Developer Portal access is required, and it's unclear how to obtain it.",
+        "pass2_value": "",
+        "pass1_urls": [
+          "https://docs.payaconnect.com/developers",
+          "https://validate.perfdrive.com/64b926de080836ab9a2812de3f961c22/?ssa=af15ef9e-248f-4139-90b5-75e3969de988&ssb=54997277161&ssc=https%3A%2F%2Fwww.cardconnect.com%2Flaunchpointe%2Fisv-growth%2Fguide-for-developers&ssi=58dbf1a3-cxmm-4ee1-9504-c80656673fbf&ssk=botmanager_support@radware.com&ssm=96888658260658433108075206342621&ssn=a6883519414cae64ebe42da882e428711221c0aa7e16-ac0a-40fe-8ff2d3&sso=d46cb9fc-2cf8b72278ad3d505eec6afc3532d711919fc5d05f36df09&ssp=54675065391783523161178357522420726&ssq=20628454651286258670146512746242864499147&ssr=NDkuMzYuMTkyLjIwNw==&sst=Mozilla/5.0%20(Windows%20NT%2010.0;%20Win64;%20x64)%20AppleWebKit/537.36%20(KHTML,%20like%20Gecko)%20Chrome/120.0.0.0%20Safari/537.36&ssu=&ssv=&ssw=&ssx=eyJfX3V6bWYiOiI3ZjkwMDBjMGFhN2UxNi1hYzBhLTQwZmUtODlmYy0yY2Y4YjcyMjc4YWQxLTE3ODM1NDY1MTIxMjkwLTAwNDE1MmYyZWE4NzQ5N2Y4NjMxMCJ9"
+        ],
+        "pass2_urls": [
+          "https://developer.icemortgagetechnology.com/developer-connect/docs/authenticating-to-developer-connect-and-other-external-websites-1",
+          "https://developer.amazon.com/docs/app-submission-api/auth.html"
+        ]
+      },
+      {
+        "field": "buildable_verdict",
+        "pass1_value": "no",
+        "pass2_value": "yes",
+        "pass1_urls": [
+          "https://docs.payaconnect.com/developers",
+          "https://validate.perfdrive.com/64b926de080836ab9a2812de3f961c22/?ssa=af15ef9e-248f-4139-90b5-75e3969de988&ssb=54997277161&ssc=https%3A%2F%2Fwww.cardconnect.com%2Flaunchpointe%2Fisv-growth%2Fguide-for-developers&ssi=58dbf1a3-cxmm-4ee1-9504-c80656673fbf&ssk=botmanager_support@radware.com&ssm=96888658260658433108075206342621&ssn=a6883519414cae64ebe42da882e428711221c0aa7e16-ac0a-40fe-8ff2d3&sso=d46cb9fc-2cf8b72278ad3d505eec6afc3532d711919fc5d05f36df09&ssp=54675065391783523161178357522420726&ssq=20628454651286258670146512746242864499147&ssr=NDkuMzYuMTkyLjIwNw==&sst=Mozilla/5.0%20(Windows%20NT%2010.0;%20Win64;%20x64)%20AppleWebKit/537.36%20(KHTML,%20like%20Gecko)%20Chrome/120.0.0.0%20Safari/537.36&ssu=&ssv=&ssw=&ssx=eyJfX3V6bWYiOiI3ZjkwMDBjMGFhN2UxNi1hYzBhLTQwZmUtODlmYy0yY2Y4YjcyMjc4YWQxLTE3ODM1NDY1MTIxMjkwLTAwNDE1MmYyZWE4NzQ5N2Y4NjMxMCJ9"
+        ],
+        "pass2_urls": [
+          "https://developer.icemortgagetechnology.com/developer-connect/docs/authenticating-to-developer-connect-and-other-external-websites-1",
+          "https://developer.amazon.com/docs/app-submission-api/auth.html"
+        ]
+      },
+      {
+        "field": "confidence",
+        "pass1_value": 0.2,
+        "pass2_value": 0.9,
+        "pass1_urls": [
+          "https://docs.payaconnect.com/developers",
+          "https://validate.perfdrive.com/64b926de080836ab9a2812de3f961c22/?ssa=af15ef9e-248f-4139-90b5-75e3969de988&ssb=54997277161&ssc=https%3A%2F%2Fwww.cardconnect.com%2Flaunchpointe%2Fisv-growth%2Fguide-for-developers&ssi=58dbf1a3-cxmm-4ee1-9504-c80656673fbf&ssk=botmanager_support@radware.com&ssm=96888658260658433108075206342621&ssn=a6883519414cae64ebe42da882e428711221c0aa7e16-ac0a-40fe-8ff2d3&sso=d46cb9fc-2cf8b72278ad3d505eec6afc3532d711919fc5d05f36df09&ssp=54675065391783523161178357522420726&ssq=20628454651286258670146512746242864499147&ssr=NDkuMzYuMTkyLjIwNw==&sst=Mozilla/5.0%20(Windows%20NT%2010.0;%20Win64;%20x64)%20AppleWebKit/537.36%20(KHTML,%20like%20Gecko)%20Chrome/120.0.0.0%20Safari/537.36&ssu=&ssv=&ssw=&ssx=eyJfX3V6bWYiOiI3ZjkwMDBjMGFhN2UxNi1hYzBhLTQwZmUtODlmYy0yY2Y4YjcyMjc4YWQxLTE3ODM1NDY1MTIxMjkwLTAwNDE1MmYyZWE4NzQ5N2Y4NjMxMCJ9"
+        ],
+        "pass2_urls": [
+          "https://developer.icemortgagetechnology.com/developer-connect/docs/authenticating-to-developer-connect-and-other-external-websites-1",
+          "https://developer.amazon.com/docs/app-submission-api/auth.html"
+        ]
+      },
+      {
+        "field": "evidence_urls",
+        "pass1_value": [
+          "https://docs.payaconnect.com/developers",
+          "https://validate.perfdrive.com/64b926de080836ab9a2812de3f961c22/?ssa=af15ef9e-248f-4139-90b5-75e3969de988&ssb=54997277161&ssc=https%3A%2F%2Fwww.cardconnect.com%2Flaunchpointe%2Fisv-growth%2Fguide-for-developers&ssi=58dbf1a3-cxmm-4ee1-9504-c80656673fbf&ssk=botmanager_support@radware.com&ssm=96888658260658433108075206342621&ssn=a6883519414cae64ebe42da882e428711221c0aa7e16-ac0a-40fe-8ff2d3&sso=d46cb9fc-2cf8b72278ad3d505eec6afc3532d711919fc5d05f36df09&ssp=54675065391783523161178357522420726&ssq=20628454651286258670146512746242864499147&ssr=NDkuMzYuMTkyLjIwNw==&sst=Mozilla/5.0%20(Windows%20NT%2010.0;%20Win64;%20x64)%20AppleWebKit/537.36%20(KHTML,%20like%20Gecko)%20Chrome/120.0.0.0%20Safari/537.36&ssu=&ssv=&ssw=&ssx=eyJfX3V6bWYiOiI3ZjkwMDBjMGFhN2UxNi1hYzBhLTQwZmUtODlmYy0yY2Y4YjcyMjc4YWQxLTE3ODM1NDY1MTIxMjkwLTAwNDE1MmYyZWE4NzQ5N2Y4NjMxMCJ9",
+          "https://developer.mastercard.com/open-finance-us/documentation/api-reference"
+        ],
+        "pass2_value": [
+          "https://developer.icemortgagetechnology.com/developer-connect/docs/authenticating-to-developer-connect-and-other-external-websites-1",
+          "https://developer.amazon.com/docs/app-submission-api/auth.html"
+        ],
+        "pass1_urls": [
+          "https://docs.payaconnect.com/developers",
+          "https://validate.perfdrive.com/64b926de080836ab9a2812de3f961c22/?ssa=af15ef9e-248f-4139-90b5-75e3969de988&ssb=54997277161&ssc=https%3A%2F%2Fwww.cardconnect.com%2Flaunchpointe%2Fisv-growth%2Fguide-for-developers&ssi=58dbf1a3-cxmm-4ee1-9504-c80656673fbf&ssk=botmanager_support@radware.com&ssm=96888658260658433108075206342621&ssn=a6883519414cae64ebe42da882e428711221c0aa7e16-ac0a-40fe-8ff2d3&sso=d46cb9fc-2cf8b72278ad3d505eec6afc3532d711919fc5d05f36df09&ssp=54675065391783523161178357522420726&ssq=20628454651286258670146512746242864499147&ssr=NDkuMzYuMTkyLjIwNw==&sst=Mozilla/5.0%20(Windows%20NT%2010.0;%20Win64;%20x64)%20AppleWebKit/537.36%20(KHTML,%20like%20Gecko)%20Chrome/120.0.0.0%20Safari/537.36&ssu=&ssv=&ssw=&ssx=eyJfX3V6bWYiOiI3ZjkwMDBjMGFhN2UxNi1hYzBhLTQwZmUtODlmYy0yY2Y4YjcyMjc4YWQxLTE3ODM1NDY1MTIxMjkwLTAwNDE1MmYyZWE4NzQ5N2Y4NjMxMCJ9"
+        ],
+        "pass2_urls": [
+          "https://developer.icemortgagetechnology.com/developer-connect/docs/authenticating-to-developer-connect-and-other-external-websites-1",
+          "https://developer.amazon.com/docs/app-submission-api/auth.html"
+        ]
+      },
+      {
+        "field": "notes",
+        "pass1_value": "Developer Portal access is required, and it's unclear how to obtain it.",
+        "pass2_value": "",
+        "pass1_urls": [
+          "https://docs.payaconnect.com/developers",
+          "https://validate.perfdrive.com/64b926de080836ab9a2812de3f961c22/?ssa=af15ef9e-248f-4139-90b5-75e3969de988&ssb=54997277161&ssc=https%3A%2F%2Fwww.cardconnect.com%2Flaunchpointe%2Fisv-growth%2Fguide-for-developers&ssi=58dbf1a3-cxmm-4ee1-9504-c80656673fbf&ssk=botmanager_support@radware.com&ssm=96888658260658433108075206342621&ssn=a6883519414cae64ebe42da882e428711221c0aa7e16-ac0a-40fe-8ff2d3&sso=d46cb9fc-2cf8b72278ad3d505eec6afc3532d711919fc5d05f36df09&ssp=54675065391783523161178357522420726&ssq=20628454651286258670146512746242864499147&ssr=NDkuMzYuMTkyLjIwNw==&sst=Mozilla/5.0%20(Windows%20NT%2010.0;%20Win64;%20x64)%20AppleWebKit/537.36%20(KHTML,%20like%20Gecko)%20Chrome/120.0.0.0%20Safari/537.36&ssu=&ssv=&ssw=&ssx=eyJfX3V6bWYiOiI3ZjkwMDBjMGFhN2UxNi1hYzBhLTQwZmUtODlmYy0yY2Y4YjcyMjc4YWQxLTE3ODM1NDY1MTIxMjkwLTAwNDE1MmYyZWE4NzQ5N2Y4NjMxMCJ9"
+        ],
+        "pass2_urls": [
+          "https://developer.icemortgagetechnology.com/developer-connect/docs/authenticating-to-developer-connect-and-other-external-websites-1",
+          "https://developer.amazon.com/docs/app-submission-api/auth.html"
+        ]
+      },
+      {
+        "field": "one_liner",
+        "pass1_value": "Developers :: Docs Quick Start Guide Paya Connect Recommended Path of Integration PayForm & AccountForm Hosted Payment Page CSV/TSV Download API Reference Endpoints",
+        "pass2_value": "Paygent Connect is a platform for integrating with ICE Mortgage Technology's REST-based APIs.",
+        "pass1_urls": [
+          "https://docs.payaconnect.com/developers",
+          "https://validate.perfdrive.com/64b926de080836ab9a2812de3f961c22/?ssa=af15ef9e-248f-4139-90b5-75e3969de988&ssb=54997277161&ssc=https%3A%2F%2Fwww.cardconnect.com%2Flaunchpointe%2Fisv-growth%2Fguide-for-developers&ssi=58dbf1a3-cxmm-4ee1-9504-c80656673fbf&ssk=botmanager_support@radware.com&ssm=96888658260658433108075206342621&ssn=a6883519414cae64ebe42da882e428711221c0aa7e16-ac0a-40fe-8ff2d3&sso=d46cb9fc-2cf8b72278ad3d505eec6afc3532d711919fc5d05f36df09&ssp=54675065391783523161178357522420726&ssq=20628454651286258670146512746242864499147&ssr=NDkuMzYuMTkyLjIwNw==&sst=Mozilla/5.0%20(Windows%20NT%2010.0;%20Win64;%20x64)%20AppleWebKit/537.36%20(KHTML,%20like%20Gecko)%20Chrome/120.0.0.0%20Safari/537.36&ssu=&ssv=&ssw=&ssx=eyJfX3V6bWYiOiI3ZjkwMDBjMGFhN2UxNi1hYzBhLTQwZmUtODlmYy0yY2Y4YjcyMjc4YWQxLTE3ODM1NDY1MTIxMjkwLTAwNDE1MmYyZWE4NzQ5N2Y4NjMxMCJ9"
+        ],
+        "pass2_urls": [
+          "https://developer.icemortgagetechnology.com/developer-connect/docs/authenticating-to-developer-connect-and-other-external-websites-1",
+          "https://developer.amazon.com/docs/app-submission-api/auth.html"
+        ]
+      }
+    ],
+    "diff_count": 9,
+    "pass1_confidence": 0.2,
+    "pass2_confidence": 0.9
+  },
+  {
+    "id": 50,
+    "name": "fanbasis",
+    "category": "Ecommerce",
+    "diffs": [
+      {
+        "field": "api_breadth_note",
+        "pass1_value": "40+ endpoints covering contacts, deals, pipelines, and more.",
+        "pass2_value": "40+ endpoints covering contacts, deals, pipelines",
+        "pass1_urls": [
+          "https://dev-docs.fanbasis.com/login.html",
+          "https://apidocs.fan/"
+        ],
+        "pass2_urls": [
+          "https://dev-docs.fanbasis.com/login.html",
+          "https://apidocs.fan/"
+        ]
+      },
+      {
+        "field": "evidence_urls",
+        "pass1_value": [
+          "https://dev-docs.fanbasis.com/login.html",
+          "https://apidocs.fan/",
+          "https://tradablebits.com/developers"
+        ],
+        "pass2_value": [
+          "https://dev-docs.fanbasis.com/login.html",
+          "https://apidocs.fan/",
+          "https://www.linkedin.com/posts/christinadodge_fanbasis-enterprise-payments-that-make-activity-7446934829348245504-bQEM"
+        ],
+        "pass1_urls": [
+          "https://dev-docs.fanbasis.com/login.html",
+          "https://apidocs.fan/"
+        ],
+        "pass2_urls": [
+          "https://dev-docs.fanbasis.com/login.html",
+          "https://apidocs.fan/"
+        ]
+      }
+    ],
+    "diff_count": 2,
+    "pass1_confidence": 0.9,
+    "pass2_confidence": 0.9
+  },
+  {
+    "id": 7,
+    "name": "Zoho CRM",
+    "category": "CRM and Sales",
+    "diffs": [
+      {
+        "field": "auth_methods",
+        "pass1_value": [
+          "OAuth2"
+        ],
+        "pass2_value": [
+          "OAuth2",
+          "API Key"
+        ],
+        "pass1_urls": [
+          "https://www.zohocrm.dev/",
+          "https://www.zoho.com/crm/developer/docs/api/v8/oauth-overview.html"
+        ],
+        "pass2_urls": [
+          "https://www.zoho.com/crm/developer/docs/api/v8/oauth-overview.html",
+          "https://www.zoho.com/crm/developer/docs/functions/auth-method.html"
+        ]
+      },
+      {
+        "field": "confidence",
+        "pass1_value": 0.8,
+        "pass2_value": 0.9,
+        "pass1_urls": [
+          "https://www.zohocrm.dev/",
+          "https://www.zoho.com/crm/developer/docs/api/v8/oauth-overview.html"
+        ],
+        "pass2_urls": [
+          "https://www.zoho.com/crm/developer/docs/api/v8/oauth-overview.html",
+          "https://www.zoho.com/crm/developer/docs/functions/auth-method.html"
+        ]
+      },
+      {
+        "field": "evidence_urls",
+        "pass1_value": [
+          "https://www.zohocrm.dev/",
+          "https://www.zoho.com/crm/developer/docs/api/v8/oauth-overview.html"
+        ],
+        "pass2_value": [
+          "https://www.zoho.com/crm/developer/docs/api/v8/oauth-overview.html",
+          "https://www.zoho.com/crm/developer/docs/functions/auth-method.html",
+          "https://www.zoho.com/crm/developer/docs/api/v8/auth-request.html"
+        ],
+        "pass1_urls": [
+          "https://www.zohocrm.dev/",
+          "https://www.zoho.com/crm/developer/docs/api/v8/oauth-overview.html"
+        ],
+        "pass2_urls": [
+          "https://www.zoho.com/crm/developer/docs/api/v8/oauth-overview.html",
+          "https://www.zoho.com/crm/developer/docs/functions/auth-method.html"
+        ]
+      },
+      {
+        "field": "one_liner",
+        "pass1_value": "Zoho CRM API uses OAuth 2.0 protocol for authentication.",
+        "pass2_value": "The Zoho CRM API uses the OAuth 2.0 protocol for authentication.",
+        "pass1_urls": [
+          "https://www.zohocrm.dev/",
+          "https://www.zoho.com/crm/developer/docs/api/v8/oauth-overview.html"
+        ],
+        "pass2_urls": [
+          "https://www.zoho.com/crm/developer/docs/api/v8/oauth-overview.html",
+          "https://www.zoho.com/crm/developer/docs/functions/auth-method.html"
+        ]
+      }
+    ],
+    "diff_count": 4,
+    "pass1_confidence": 0.8,
+    "pass2_confidence": 0.9
+  },
+  {
+    "id": 4,
+    "name": "Attio",
+    "category": "CRM and Sales",
+    "diffs": [
+      {
+        "field": "api_breadth_note",
+        "pass1_value": "40+ endpoints covering contacts, deals, pipelines",
+        "pass2_value": "40+ endpoints covering contacts, deals, pipelines, and more",
+        "pass1_urls": [
+          "https://apitracker.io/a/attio",
+          "https://blog.coffee.ai/attio-crm-public-api-docs"
+        ],
+        "pass2_urls": [
+          "https://docs.attio.com/rest-api/guides/authentication",
+          "https://docs.attio.com/docs/oauth/authorize"
+        ]
+      },
+      {
+        "field": "api_surface",
+        "pass1_value": "both",
+        "pass2_value": "rest",
+        "pass1_urls": [
+          "https://apitracker.io/a/attio",
+          "https://blog.coffee.ai/attio-crm-public-api-docs"
+        ],
+        "pass2_urls": [
+          "https://docs.attio.com/rest-api/guides/authentication",
+          "https://docs.attio.com/docs/oauth/authorize"
+        ]
+      },
+      {
+        "field": "confidence",
+        "pass1_value": 0.8,
+        "pass2_value": 0.9,
+        "pass1_urls": [
+          "https://apitracker.io/a/attio",
+          "https://blog.coffee.ai/attio-crm-public-api-docs"
+        ],
+        "pass2_urls": [
+          "https://docs.attio.com/rest-api/guides/authentication",
+          "https://docs.attio.com/docs/oauth/authorize"
+        ]
+      },
+      {
+        "field": "evidence_urls",
+        "pass1_value": [
+          "https://apitracker.io/a/attio",
+          "https://blog.coffee.ai/attio-crm-public-api-docs",
+          "https://apitracker.io/a/attio"
+        ],
+        "pass2_value": [
+          "https://docs.attio.com/rest-api/guides/authentication",
+          "https://docs.attio.com/docs/oauth/authorize",
+          "https://www.stacksync.com/blog/how-to-get-an-attio-developer-account-and-start-working-with-attios-api"
+        ],
+        "pass1_urls": [
+          "https://apitracker.io/a/attio",
+          "https://blog.coffee.ai/attio-crm-public-api-docs"
+        ],
+        "pass2_urls": [
+          "https://docs.attio.com/rest-api/guides/authentication",
+          "https://docs.attio.com/docs/oauth/authorize"
+        ]
+      },
+      {
+        "field": "one_liner",
+        "pass1_value": "Unlock your team's true potential with Attio, the data-driven CRM for modern teams.",
+        "pass2_value": "Attio is a CRM for technical teams with a clean UI, real-time collaboration features, and powerful customizations, and an extensible API for deep integrations and automation.",
+        "pass1_urls": [
+          "https://apitracker.io/a/attio",
+          "https://blog.coffee.ai/attio-crm-public-api-docs"
+        ],
+        "pass2_urls": [
+          "https://docs.attio.com/rest-api/guides/authentication",
+          "https://docs.attio.com/docs/oauth/authorize"
+        ]
+      }
+    ],
+    "diff_count": 5,
+    "pass1_confidence": 0.8,
+    "pass2_confidence": 0.9
+  }
+]

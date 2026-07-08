@@ -1,0 +1,6 @@
+1. OAuth2 is the dominant authentication method, used by 92 of 100 apps (92%); API Key is second at 47 apps.
+2. 95.0% of apps (95 of 100) offer self-serve API access; 0.0% require partner approval or a paid plan.
+3. 'CRM and Sales' is the most self-serve-friendly category (100.0% self-serve), while 'CRM and Sales' is the most gated (0.0% require approval or paid plan).
+4. 98 apps (98%) are buildable into agent toolkits today; 2 are partially buildable; 0 have blockers (gated access, no public API, or unclear docs).
+5. Composio already has toolkits for 45 of 100 apps (45%); 'Productivity and Project Management' has the highest coverage at 90.0%.
+6. The most common barrier to building agent toolkits: 'none' (3 apps) — followed by partner-only API programs and unclear pricing tiers.

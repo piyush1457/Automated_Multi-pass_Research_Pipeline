@@ -1,0 +1,119 @@
+{
+  "generated_at": "2026-07-08T22:11:12.471058Z",
+  "human_checked_apps": 10,
+  "pass1_raw_accuracy_pct": 47.0,
+  "pass2_agreement_rate_pct": 72.5,
+  "final_accuracy_pct": 100.0,
+  "total_fields_checked": 100,
+  "total_fields_corrected": 53,
+  "wrong_examples": [
+    {
+      "app_id": 40,
+      "app_name": "SendGrid",
+      "field": "one_liner",
+      "pass1_answer": "",
+      "corrected_answer": "SendGrid is an email API that allows users to send, receive, and track email messages."
+    },
+    {
+      "app_id": 40,
+      "app_name": "SendGrid",
+      "field": "auth_methods",
+      "pass1_answer": "",
+      "corrected_answer": "API key"
+    },
+    {
+      "app_id": 40,
+      "app_name": "SendGrid",
+      "field": "access",
+      "pass1_answer": "unclear",
+      "corrected_answer": "self_serve_trial (They offer a 60-day timed free trial)"
+    },
+    {
+      "app_id": 40,
+      "app_name": "SendGrid",
+      "field": "api_surface",
+      "pass1_answer": "none_public",
+      "corrected_answer": "rest"
+    },
+    {
+      "app_id": 40,
+      "app_name": "SendGrid",
+      "field": "api_breadth_note",
+      "pass1_answer": "",
+      "corrected_answer": "Comprehensive API covering email sending, marketing campaigns, contacts, templates, and analytics."
+    },
+    {
+      "app_id": 40,
+      "app_name": "SendGrid",
+      "field": "existing_mcp",
+      "pass1_answer": "False",
+      "corrected_answer": "True"
+    },
+    {
+      "app_id": 40,
+      "app_name": "SendGrid",
+      "field": "mcp_source",
+      "pass1_answer": "none",
+      "corrected_answer": "Composio"
+    },
+    {
+      "app_id": 40,
+      "app_name": "SendGrid",
+      "field": "buildable_verdict",
+      "pass1_answer": "no",
+      "corrected_answer": "yes"
+    }
+  ],
+  "per_app_accuracy": {
+    "40": {
+      "total_fields": 10,
+      "correct_fields": 0,
+      "accuracy": 0.0
+    },
+    "15": {
+      "total_fields": 10,
+      "correct_fields": 4,
+      "accuracy": 40.0
+    },
+    "84": {
+      "total_fields": 10,
+      "correct_fields": 3,
+      "accuracy": 30.0
+    },
+    "100": {
+      "total_fields": 10,
+      "correct_fields": 3,
+      "accuracy": 30.0
+    },
+    "59": {
+      "total_fields": 10,
+      "correct_fields": 7,
+      "accuracy": 70.0
+    },
+    "91": {
+      "total_fields": 10,
+      "correct_fields": 3,
+      "accuracy": 30.0
+    },
+    "97": {
+      "total_fields": 10,
+      "correct_fields": 3,
+      "accuracy": 30.0
+    },
+    "2": {
+      "total_fields": 10,
+      "correct_fields": 8,
+      "accuracy": 80.0
+    },
+    "17": {
+      "total_fields": 10,
+      "correct_fields": 7,
+      "accuracy": 70.0
+    },
+    "87": {
+      "total_fields": 10,
+      "correct_fields": 9,
+      "accuracy": 90.0
+    }
+  }
+}

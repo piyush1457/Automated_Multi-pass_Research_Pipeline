@@ -1,0 +1,580 @@
+{
+  "total_apps": 100,
+  "categories": [
+    "CRM and Sales",
+    "Support and Helpdesk",
+    "Communications and Messaging",
+    "Marketing, Ads, Email and Social",
+    "Ecommerce",
+    "Data, SEO and Scraping",
+    "Developer, Infra and Data platforms",
+    "Productivity and Project Management",
+    "Finance and Fintech",
+    "AI, Research and Media-native"
+  ],
+  "auth": {
+    "overall": [
+      {
+        "value": "OAuth2",
+        "count": 92
+      },
+      {
+        "value": "API Key",
+        "count": 47
+      },
+      {
+        "value": "Basic",
+        "count": 13
+      },
+      {
+        "value": "Token",
+        "count": 9
+      },
+      {
+        "value": "API key",
+        "count": 2
+      },
+      {
+        "value": "Client Credentials",
+        "count": 1
+      },
+      {
+        "value": "Api Key",
+        "count": 1
+      },
+      {
+        "value": "email/password",
+        "count": 1
+      },
+      {
+        "value": "magic links",
+        "count": 1
+      },
+      {
+        "value": "SAML",
+        "count": 1
+      },
+      {
+        "value": "SSO",
+        "count": 1
+      },
+      {
+        "value": "phone/SMS OTP",
+        "count": 1
+      },
+      {
+        "value": "Other",
+        "count": 1
+      },
+      {
+        "value": "Personal Access Token",
+        "count": 1
+      }
+    ],
+    "by_category": {
+      "CRM and Sales": [
+        {
+          "value": "OAuth2",
+          "count": 10
+        },
+        {
+          "value": "API Key",
+          "count": 6
+        },
+        {
+          "value": "Client Credentials",
+          "count": 1
+        }
+      ],
+      "Support and Helpdesk": [
+        {
+          "value": "OAuth2",
+          "count": 10
+        },
+        {
+          "value": "API Key",
+          "count": 8
+        },
+        {
+          "value": "Basic",
+          "count": 2
+        },
+        {
+          "value": "Token",
+          "count": 1
+        }
+      ],
+      "Communications and Messaging": [
+        {
+          "value": "OAuth2",
+          "count": 9
+        },
+        {
+          "value": "API Key",
+          "count": 5
+        },
+        {
+          "value": "Basic",
+          "count": 2
+        },
+        {
+          "value": "Token",
+          "count": 1
+        }
+      ],
+      "Marketing, Ads, Email and Social": [
+        {
+          "value": "OAuth2",
+          "count": 9
+        },
+        {
+          "value": "API Key",
+          "count": 4
+        },
+        {
+          "value": "Basic",
+          "count": 1
+        },
+        {
+          "value": "API key",
+          "count": 1
+        }
+      ],
+      "Ecommerce": [
+        {
+          "value": "OAuth2",
+          "count": 10
+        },
+        {
+          "value": "API Key",
+          "count": 4
+        },
+        {
+          "value": "Basic",
+          "count": 1
+        },
+        {
+          "value": "Token",
+          "count": 1
+        }
+      ],
+      "Data, SEO and Scraping": [
+        {
+          "value": "OAuth2",
+          "count": 9
+        },
+        {
+          "value": "API Key",
+          "count": 3
+        },
+        {
+          "value": "Api Key",
+          "count": 1
+        },
+        {
+          "value": "Basic",
+          "count": 1
+        },
+        {
+          "value": "Token",
+          "count": 1
+        }
+      ],
+      "Developer, Infra and Data platforms": [
+        {
+          "value": "OAuth2",
+          "count": 10
+        },
+        {
+          "value": "API Key",
+          "count": 4
+        },
+        {
+          "value": "Basic",
+          "count": 2
+        },
+        {
+          "value": "Token",
+          "count": 2
+        },
+        {
+          "value": "email/password",
+          "count": 1
+        },
+        {
+          "value": "magic links",
+          "count": 1
+        },
+        {
+          "value": "SAML",
+          "count": 1
+        },
+        {
+          "value": "SSO",
+          "count": 1
+        },
+        {
+          "value": "phone/SMS OTP",
+          "count": 1
+        }
+      ],
+      "Productivity and Project Management": [
+        {
+          "value": "OAuth2",
+          "count": 9
+        },
+        {
+          "value": "API Key",
+          "count": 4
+        },
+        {
+          "value": "Basic",
+          "count": 3
+        },
+        {
+          "value": "Token",
+          "count": 2
+        },
+        {
+          "value": "Other",
+          "count": 1
+        },
+        {
+          "value": "Personal Access Token",
+          "count": 1
+        }
+      ],
+      "Finance and Fintech": [
+        {
+          "value": "OAuth2",
+          "count": 8
+        },
+        {
+          "value": "API Key",
+          "count": 4
+        },
+        {
+          "value": "API key",
+          "count": 1
+        }
+      ],
+      "AI, Research and Media-native": [
+        {
+          "value": "OAuth2",
+          "count": 8
+        },
+        {
+          "value": "API Key",
+          "count": 5
+        },
+        {
+          "value": "Basic",
+          "count": 1
+        },
+        {
+          "value": "Token",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "access": {
+    "overall": [
+      {
+        "value": "self_serve_free",
+        "count": 93
+      },
+      {
+        "value": "self_serve_paid",
+        "count": 2
+      },
+      {
+        "value": "self_serve_trial",
+        "count": 2
+      },
+      {
+        "value": "self_serve_trial (They offer a 60-day timed free trial)",
+        "count": 1
+      },
+      {
+        "value": "approval_required",
+        "count": 1
+      },
+      {
+        "value": "Enterprise_only",
+        "count": 1
+      }
+    ],
+    "self_serve_count": 95,
+    "self_serve_pct": 95.0,
+    "gated_count": 0,
+    "gated_pct": 0.0,
+    "unclear_count": 5,
+    "by_category": {
+      "CRM and Sales": {
+        "self_serve": 10,
+        "gated": 0,
+        "unclear": 0,
+        "total": 10,
+        "self_serve_pct": 100.0,
+        "gated_pct": 0.0,
+        "skew": "self_serve"
+      },
+      "Support and Helpdesk": {
+        "self_serve": 9,
+        "gated": 0,
+        "unclear": 1,
+        "total": 10,
+        "self_serve_pct": 90.0,
+        "gated_pct": 0.0,
+        "skew": "self_serve"
+      },
+      "Communications and Messaging": {
+        "self_serve": 10,
+        "gated": 0,
+        "unclear": 0,
+        "total": 10,
+        "self_serve_pct": 100.0,
+        "gated_pct": 0.0,
+        "skew": "self_serve"
+      },
+      "Marketing, Ads, Email and Social": {
+        "self_serve": 9,
+        "gated": 0,
+        "unclear": 1,
+        "total": 10,
+        "self_serve_pct": 90.0,
+        "gated_pct": 0.0,
+        "skew": "self_serve"
+      },
+      "Ecommerce": {
+        "self_serve": 10,
+        "gated": 0,
+        "unclear": 0,
+        "total": 10,
+        "self_serve_pct": 100.0,
+        "gated_pct": 0.0,
+        "skew": "self_serve"
+      },
+      "Data, SEO and Scraping": {
+        "self_serve": 10,
+        "gated": 0,
+        "unclear": 0,
+        "total": 10,
+        "self_serve_pct": 100.0,
+        "gated_pct": 0.0,
+        "skew": "self_serve"
+      },
+      "Developer, Infra and Data platforms": {
+        "self_serve": 10,
+        "gated": 0,
+        "unclear": 0,
+        "total": 10,
+        "self_serve_pct": 100.0,
+        "gated_pct": 0.0,
+        "skew": "self_serve"
+      },
+      "Productivity and Project Management": {
+        "self_serve": 10,
+        "gated": 0,
+        "unclear": 0,
+        "total": 10,
+        "self_serve_pct": 100.0,
+        "gated_pct": 0.0,
+        "skew": "self_serve"
+      },
+      "Finance and Fintech": {
+        "self_serve": 9,
+        "gated": 0,
+        "unclear": 1,
+        "total": 10,
+        "self_serve_pct": 90.0,
+        "gated_pct": 0.0,
+        "skew": "self_serve"
+      },
+      "AI, Research and Media-native": {
+        "self_serve": 8,
+        "gated": 0,
+        "unclear": 2,
+        "total": 10,
+        "self_serve_pct": 80.0,
+        "gated_pct": 0.0,
+        "skew": "self_serve"
+      }
+    }
+  },
+  "blockers": {
+    "ranked": [
+      {
+        "value": "none",
+        "count": 3
+      },
+      {
+        "value": "None",
+        "count": 1
+      },
+      {
+        "value": "Pricing plans are available as annual packages, with credits provided upfront at the start of the subscription period.",
+        "count": 1
+      },
+      {
+        "value": "Requires API credits and a paid plan",
+        "count": 1
+      }
+    ]
+  },
+  "buildable_verdict": {
+    "overall": [
+      {
+        "value": "yes",
+        "count": 98
+      },
+      {
+        "value": "partial",
+        "count": 2
+      }
+    ],
+    "by_category": {
+      "CRM and Sales": {
+        "yes": 10,
+        "partial": 0,
+        "no": 0,
+        "yes_pct": 100.0
+      },
+      "Support and Helpdesk": {
+        "yes": 10,
+        "partial": 0,
+        "no": 0,
+        "yes_pct": 100.0
+      },
+      "Communications and Messaging": {
+        "yes": 10,
+        "partial": 0,
+        "no": 0,
+        "yes_pct": 100.0
+      },
+      "Marketing, Ads, Email and Social": {
+        "yes": 10,
+        "partial": 0,
+        "no": 0,
+        "yes_pct": 100.0
+      },
+      "Ecommerce": {
+        "yes": 10,
+        "partial": 0,
+        "no": 0,
+        "yes_pct": 100.0
+      },
+      "Data, SEO and Scraping": {
+        "yes": 9,
+        "partial": 1,
+        "no": 0,
+        "yes_pct": 90.0
+      },
+      "Developer, Infra and Data platforms": {
+        "yes": 10,
+        "partial": 0,
+        "no": 0,
+        "yes_pct": 100.0
+      },
+      "Productivity and Project Management": {
+        "yes": 10,
+        "partial": 0,
+        "no": 0,
+        "yes_pct": 100.0
+      },
+      "Finance and Fintech": {
+        "yes": 9,
+        "partial": 1,
+        "no": 0,
+        "yes_pct": 90.0
+      },
+      "AI, Research and Media-native": {
+        "yes": 10,
+        "partial": 0,
+        "no": 0,
+        "yes_pct": 100.0
+      }
+    }
+  },
+  "existing_mcp": {
+    "overall": [
+      {
+        "value": "none",
+        "count": 55
+      },
+      {
+        "value": "composio",
+        "count": 40
+      },
+      {
+        "value": "Offical",
+        "count": 2
+      },
+      {
+        "value": "Composio",
+        "count": 1
+      },
+      {
+        "value": "community",
+        "count": 1
+      },
+      {
+        "value": "offical",
+        "count": 1
+      }
+    ],
+    "by_category": {
+      "CRM and Sales": {
+        "has_mcp": 5,
+        "no_mcp": 5,
+        "has_mcp_pct": 50.0
+      },
+      "Support and Helpdesk": {
+        "has_mcp": 6,
+        "no_mcp": 4,
+        "has_mcp_pct": 60.0
+      },
+      "Communications and Messaging": {
+        "has_mcp": 3,
+        "no_mcp": 7,
+        "has_mcp_pct": 30.0
+      },
+      "Marketing, Ads, Email and Social": {
+        "has_mcp": 5,
+        "no_mcp": 5,
+        "has_mcp_pct": 50.0
+      },
+      "Ecommerce": {
+        "has_mcp": 3,
+        "no_mcp": 7,
+        "has_mcp_pct": 30.0
+      },
+      "Data, SEO and Scraping": {
+        "has_mcp": 2,
+        "no_mcp": 8,
+        "has_mcp_pct": 20.0
+      },
+      "Developer, Infra and Data platforms": {
+        "has_mcp": 6,
+        "no_mcp": 4,
+        "has_mcp_pct": 60.0
+      },
+      "Productivity and Project Management": {
+        "has_mcp": 9,
+        "no_mcp": 1,
+        "has_mcp_pct": 90.0
+      },
+      "Finance and Fintech": {
+        "has_mcp": 3,
+        "no_mcp": 7,
+        "has_mcp_pct": 30.0
+      },
+      "AI, Research and Media-native": {
+        "has_mcp": 3,
+        "no_mcp": 7,
+        "has_mcp_pct": 30.0
+      }
+    }
+  }
+}
