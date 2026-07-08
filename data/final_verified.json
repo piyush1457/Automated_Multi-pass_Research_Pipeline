@@ -356,7 +356,7 @@
     "api_surface": "rest",
     "api_breadth_note": "40+ endpoints covering accounts, activities, attachments, audit logs, contacts, custom fields, feature requests, issues, knowledge base, macros, me, messages, surveys, tags, tasks & projects, teams, ticket forms, training data, user roles, and users.",
     "existing_mcp": true,
-    "mcp_source": "Offical",
+    "mcp_source": "official",
     "buildable_verdict": "yes",
     "blocker": "none",
     "evidence_urls": [
@@ -402,7 +402,7 @@
       "OAuth2",
       "API Key"
     ],
-    "access": "self_serve_paid",
+    "access": "paid_plan_required",
     "api_surface": "graphql",
     "api_breadth_note": "GraphQL API covering customers, accounts, support threads, conversations, customer data, labels, notes, events, and support workflow automation.",
     "existing_mcp": false,
@@ -416,7 +416,7 @@
     ],
     "confidence": 0.8,
     "verification_status": "human_verified",
-    "notes": ""
+    "notes": "Self-serve paid plan required."
   },
   {
     "id": 18,
@@ -963,19 +963,22 @@
     "category": "Marketing, Ads, Email and Social",
     "one_liner": "SendGrid is an email API that allows users to send, receive, and track email messages.",
     "auth_methods": [
-      "API key"
+      "API Key"
     ],
-    "access": "self_serve_trial (They offer a 60-day timed free trial)",
+    "access": "self_serve_trial",
     "api_surface": "rest",
     "api_breadth_note": "Comprehensive API covering email sending, marketing campaigns, contacts, templates, and analytics.",
     "existing_mcp": true,
-    "mcp_source": "Composio",
+    "mcp_source": "composio",
     "buildable_verdict": "yes",
     "blocker": "None",
-    "evidence_urls": [],
+    "evidence_urls": [
+      "https://www.twilio.com/docs/sendgrid/for-developers/sending-email/authentication",
+      "https://sendgrid.com/docs/API_Reference/index.html"
+    ],
     "confidence": 0.0,
     "verification_status": "human_verified",
-    "notes": "SendGrid has a robust developer API and is officially supported by Composio."
+    "notes": "SendGrid has a robust developer API and is officially supported by Composio. They offer a 60-day timed free trial."
   },
   {
     "id": 41,
@@ -2043,9 +2046,9 @@
     "category": "Finance and Fintech",
     "one_liner": "Paya Connect provides payment processing APIs and hosted payment solutions for integrating payments, transaction processing, and account management into applications.Paya Connect provides payment processing APIs and hosted payment solutions for integrating payments, transaction processing, and account management into applications.",
     "auth_methods": [
-      "API key"
+      "API Key"
     ],
-    "access": "approval_required",
+    "access": "partner_gated",
     "api_surface": "rest",
     "api_breadth_note": "EST API covering payment transactions, accounts, customers, recurring payments, tokens, and related payment-processing operations.",
     "existing_mcp": false,
@@ -2059,7 +2062,7 @@
     ],
     "confidence": 0.2,
     "verification_status": "human_verified",
-    "notes": "Documented REST API is available, but production access and credentials may require merchant or partner onboarding; no official MCP server was identified."
+    "notes": "API access requires approval. Documented REST API is available, but production access and credentials may require merchant or partner onboarding; no official MCP server was identified."
   },
   {
     "id": 85,
@@ -2214,7 +2217,7 @@
     "auth_methods": [
       "OAuth2"
     ],
-    "access": "Enterprise_only",
+    "access": "paid_plan_required",
     "api_surface": "rest",
     "api_breadth_note": "Enterprise API supports notebook management operations including creating, retrieving, listing, deleting, and sharing notebooks.",
     "existing_mcp": true,
@@ -2226,9 +2229,9 @@
       "https://medium.com/@TusharKanjariya/i-tried-google-notebooklm-as-a-developer-067caa74c9ad",
       "https://discuss.ai.google.dev/t/notebooklm-api/55950"
     ],
-    "confidence": 0.8,
-    "verification_status": "human_verified",
-    "notes": "Official API access is available for NotebookLM Enterprise with limited notebook management capabilities; community-built MCP servers also exist, but no official NotebookLM MCP server was identified."
+    "confidence": 0.9,
+    "verification_status": "unverified",
+    "notes": "API access is currently enterprise-only."
   },
   {
     "id": 92,
@@ -2359,11 +2362,11 @@
     "auth_methods": [
       "OAuth2"
     ],
-    "access": "self_serve_paid",
+    "access": "paid_plan_required",
     "api_surface": "REST",
     "api_breadth_note": "API capabilities cover AI image and video generation across multiple generative models and media creation workflows.",
     "existing_mcp": true,
-    "mcp_source": "Offical",
+    "mcp_source": "official",
     "buildable_verdict": "yes",
     "blocker": "",
     "evidence_urls": [
@@ -2371,9 +2374,9 @@
       "https://apps.make.com/higgsfield-ai-sxl99v",
       "https://apidog.com/blog/higgsfield-api/"
     ],
-    "confidence": 0.8,
+    "confidence": 0.2,
     "verification_status": "human_verified",
-    "notes": "Higgsfield provides AI image and video generation capabilities, developer tooling, and an official MCP server for connecting MCP-compatible AI agents to its generation models."
+    "notes": "Self-serve paid plan required. Higgsfield provides API access and an official MCP server for image and video creation."
   },
   {
     "id": 98,
@@ -2438,7 +2441,7 @@
     "api_surface": "rest",
     "api_breadth_note": "API and MCP access for meeting data, including transcripts, notes, meetings, accounts, deals, and related conversation intelligence workflows.",
     "existing_mcp": true,
-    "mcp_source": "offical",
+    "mcp_source": "official",
     "buildable_verdict": "yes",
     "blocker": "none",
     "evidence_urls": [
